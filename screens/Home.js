@@ -39,7 +39,7 @@ const Home = () => {
             >
               <Image
                 style={styles.musicIcon}
-                source={{ uri: 'https://cdn-icons-png.flaticon.com/512/61/61092.png' }}
+                source={{ uri: 'https://cdn-icons-png.flaticon.com/512/727/727245.png' }}
               />
               <Text style={styles.playlistText}>{playlist.name}</Text>
             </TouchableOpacity>
@@ -56,13 +56,14 @@ const Home = () => {
               onPress={() => handlePress('Recent', recent.name)}
             >
               <ImageBackground
-                source={{ uri: `https://via.placeholder.com/150/505050/FFFFFF?text=Recent+${index + 1}` }}
-                style={styles.recentImageBackground}
-                imageStyle={styles.recentImage}
-              >
+  source={{ uri: `https://cdn-icons-png.flaticon.com/512/727/727245.png` }} 
+  style={styles.recentImageBackground}
+  imageStyle={styles.recentImage}
+>
+
                 <Image
                   style={styles.recentMusicIcon}
-                  source={{ uri: 'https://cdn-icons-png.flaticon.com/512/61/61092.png' }}
+                  source={{ uri: 'https://cdn-icons-png.flaticon.com/512/727/727239.png' }}
                 />
               </ImageBackground>
               <Text style={styles.recentName}>{recent.name}</Text>
