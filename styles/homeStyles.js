@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: { flex: 1, 
-    backgroundColor: '#000', 
+    backgroundColor: '#191970', 
     paddingTop: 40 
 },
 
@@ -10,13 +10,13 @@ export const styles = StyleSheet.create({
      justifyContent: 'space-between', 
      alignItems: 'center', 
      paddingHorizontal: 15, paddingBottom: 15,
-      backgroundColor: '#000' 
+      backgroundColor: '#191970' 
     },
 
-  appleIcon: { width: 25,
-     height: 25, 
-     tintColor: 'white' 
-    },
+//   appleIcon: { width: 25,
+//      height: 25, 
+//      tintColor: 'green' 
+//     },
   headerRight: { flexDirection: 'row', 
     gap: 15 
 },
